@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro | Alerta Vecinos</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <section class="panel-info">
+      <div class="logo">AV</div>
+      <p class="mini">ALERTA VECINOS</p>
+      <h1>ÚNETE A LA<br><span>COMUNIDAD</span></h1>
+      <p>Registra tus datos para utilizar el sistema.</p>
+    </section>
+
+    <section class="tarjeta">
+      <p class="etiqueta">NUEVO USUARIO</p>
+      <h2>Crear cuenta</h2>
+      <p class="sub">Completa tus datos personales.</p>
+
+      <form id="formRegistro">
+        <label>Nombre completo</label>
+        <input type="text" id="nombre" required>
+
+        <label>Celular</label>
+        <input type="tel" id="celular" required>
+
+        <label>Correo electrónico</label>
+        <input type="email" id="correo" required>
+
+        <label>Contraseña</label>
+        <input type="password" id="password" minlength="6" required>
+
+        <button type="submit" class="btn principal ancho">CREAR CUENTA</button>
+      </form>
+
+      <p id="mensaje" class="mensaje"></p>
+      <p class="pie">¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+    </section>
+  </div>
+  <script src="js/registro.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi perfil | Alerta Vecinos</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="marca"><span>AV</span> ALERTA VECINOS</div>
+    <button id="cerrarSesion" class="btn salir">CERRAR SESIÓN</button>
+  </header>
+
+  <main class="perfil-contenedor">
+    <div class="perfil-cabecera">
+      <div class="avatar" id="avatar">AV</div>
+      <div>
+        <p class="etiqueta">MI CUENTA</p>
+        <h1>Perfil de usuario</h1>
+        <p>Actualiza tu nombre y número de celular.</p>
+      </div>
+    </div>
+
+    <section class="tarjeta perfil-card">
+      <form id="formPerfil">
+        <label>Nombre completo</label>
+        <input type="text" id="nombre" required>
+
+        <label>Celular</label>
+        <input type="tel" id="celular" required>
+
+        <label>Correo electrónico</label>
+        <input type="email" id="correo" disabled>
+
+        <button type="submit" class="btn principal">GUARDAR CAMBIOS</button>
+      </form>
+
+      <p id="mensaje" class="mensaje"></p>
+    </section>
+  </main>
+  <script src="js/perfil.js"></script>
+</body>
+</html>
