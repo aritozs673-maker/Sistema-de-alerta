@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Mi perfil · Alerta Vecinos</title><link rel="stylesheet" href="css/estilos.css"><script src="js/app.js"></script></head>
-<body><header class="topbar"><div class="container nav"><a class="brand" href="menu.html"><span class="brand-mark">🚨</span> Alerta Vecinos</a><nav class="nav-links"><a href="menu.html">Menú</a><a href="mapa.html">Mapa</a><a href="alertas.html">Alertas</a><a class="active" href="perfil.html">Perfil</a><a href="#" onclick="cerrarSesion();return false">Salir</a></nav></div></header>
-<main class="dashboard"><div class="container"><div class="profile-grid"><aside class="panel profile-side"><div class="avatar">👤</div><h2 data-usuario>Vecino</h2><span class="badge">Usuario registrado</span><div class="stats"><div class="stat"><strong>0</strong><small>Alertas</small></div><div class="stat"><strong>0</strong><small>Incidentes</small></div><div class="stat"><strong>✓</strong><small>Cuenta</small></div></div></aside>
-<section class="panel"><h2>Información de la cuenta</h2><p style="color:var(--muted);margin-bottom:18px">Datos utilizados para tu registro.</p><div class="field"><label>Nombre</label><input id="pNombre" readonly></div><div class="field"><label>Celular</label><input id="pCelular" readonly></div><div class="field"><label>Correo electrónico</label><input id="pCorreo" readonly></div><div class="actions"><a class="btn btn-secondary" href="menu.html">← Volver al menú</a></div></section>
-</div></div></main>
-<script>const u=obtenerUsuario();if(u){pNombre.value=u.nombre||"";pCelular.value=u.celular||"";pCorreo.value=u.correo||"";}</script></body></html>
