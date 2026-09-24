@@ -1,0 +1,11 @@
+ALERTA VECINOS — INICIO RÁPIDO
+
+1) Copia esta carpeta en C:\xampp\htdocs\AlertaVecinos
+2) Abre XAMPP y enciende Apache y MySQL.
+3) Entra a http://localhost/phpmyadmin
+4) Pulsa Importar y selecciona database\alerta_vecinos.sql
+5) Abre http://localhost/AlertaVecinos/index.html
+6) Usuario demo: demo@alertavecinos.local / password
+
+HU-07: los incidentes se guardan en MySQL, tabla incidentes.
+MAPA: usa Leaflet + OpenStreetMap como simulación. La página Mapbox permite guardar un token para una futura conexión.
